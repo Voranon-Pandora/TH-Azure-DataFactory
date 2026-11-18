@@ -1,0 +1,15 @@
+{
+	"name": "adf-peopleStack-nonprod",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d15d8dd0-2b03-41c8-ab4a-a280c6ea6ac1",
+		"tenantId": "656793e6-d51d-4bb2-b5fa-c66ddd181a40"
+	}
+}

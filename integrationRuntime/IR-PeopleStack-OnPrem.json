@@ -1,0 +1,6 @@
+{
+	"name": "IR-PeopleStack-OnPrem",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

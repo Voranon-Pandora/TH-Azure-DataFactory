@@ -1,0 +1,21 @@
+{
+	"name": "THBAN1SRV165",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "THBAN1SRV165.global.local,1433",
+			"database": "PeopleStack",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "Windows",
+			"userName": "GLOBAL\\admvoranon",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyZTliOTU0Zi1lMTllLTQwMmEtYmY0My0zZDc5OWY1MDI3ODEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-PeopleStack-OnPrem",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
